@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background-color: #cccccc;
+  border-radius: 10px;
+}
+
+.el-header, .el-aside {
+  font-family: myFonts;
+}
+
+.el-main {
+  //background: url("../../assets/img/newbg.png");
+}
+
+@font-face {
+  font-family: "myFonts";
+  src: url("../../assets/font/myFonts.ttf");
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1076628 */
+  src: url('//at.alicdn.com/t/font_1076628_24qgfdatmcl.eot');
+  src: url('//at.alicdn.com/t/font_1076628_24qgfdatmcl.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1076628_24qgfdatmcl.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1076628_24qgfdatmcl.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1076628_24qgfdatmcl.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1076628_24qgfdatmcl.svg#niceicon') format('svg');
+}
+
+body {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
